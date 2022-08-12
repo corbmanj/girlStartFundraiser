@@ -1,9 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+.flyer {
+  width: 90%;
   pointer-events: none;
 }
 
@@ -13,26 +9,44 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-body {
+  background-color: #64676e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family: monospace;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header, .sponsors {
+  background-color: #f3f6fb;
+  color: #000;
+  width: 90%;
+  margin: 2rem 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-title, .sponsor-title {
+  align-self: center;
+  margin: 5px;
+  font-weight: 600;
+}
+
+.header-row {
+  margin: 5px;
+  padding-left: 1.5em;
+  text-indent:-1.5em;
+}
+
+.react-add-to-calendar {
+  height: 4rem;
+}
+
+.react-add-to-calendar__button {
+  border-radius: 5px;
 }
