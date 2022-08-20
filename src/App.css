@@ -10,13 +10,11 @@
 }
 
 .App-body {
-  background-color: #64676e;
-  min-height: 100vh;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
-  font-family: monospace;
   color: white;
 }
 
@@ -49,4 +47,97 @@
 
 .react-add-to-calendar__button {
   border-radius: 5px;
+}
+
+/*************************/
+.banner {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  width: 28%;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-box>a {
+  margin: auto;
+}
+
+.info-box>a>img {
+  width: 100%;
+}
+
+.box-header {
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 3vw;
+}
+
+.box-body {
+  font-size: 3vw;
+  margin: auto;
+}
+
+.details-box {
+  width: 91%;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 2.8vw;
+}
+
+.sponsors-box {
+  width: 91%;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 2.8vw;
+}
+
+.sponsors-header {
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 3vw;
+}
+
+.sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sponsor-logos>img {
+  margin: 1.5vw;
+  width: 25%;
+  height: 25%;
 }
