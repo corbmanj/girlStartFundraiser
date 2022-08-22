@@ -5,6 +5,7 @@ import bannerImg from "./Girlstart-BannerImage2.png";
 import gsLogo from "./GSLogo.png";
 import hsLogo from "./HS_Logo_YelowBlue.png";
 import wahoo from "./wahoo.png";
+import kateChemist from "./kateChemistLogo.png"
 import "./App.css";
 
 const event = {
@@ -59,6 +60,7 @@ function App() {
             <img src={wahoo} alt="Wahoo Fitness Logo" />
             <img src={hsLogo} alt="HopSquad Brewing Co. Logo" />
             <img src={gsLogo} alt="GirlStart Logo" />
+            <img src={kateChemist} alt="Kate The Chemist Logo" />
           </div>
         </div>
       </body>
