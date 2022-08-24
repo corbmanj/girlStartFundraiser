@@ -6,6 +6,8 @@ import gsLogo from "./GSLogo.png";
 import hsLogo from "./HS_Logo_YelowBlue.png";
 import wahoo from "./wahoo.png";
 import kateChemist from "./kateChemistLogo.png"
+import RTRlogo from "./RTRlogo.png"
+import NClogo from "./NClogo.png"
 import "./App.css";
 
 const event = {
@@ -61,6 +63,8 @@ function App() {
             <img src={hsLogo} alt="HopSquad Brewing Co. Logo" />
             <img src={gsLogo} alt="GirlStart Logo" />
             <img src={kateChemist} alt="Kate The Chemist Logo" />
+            <img src={NClogo} alt="Nervous Charlie's Logo" />
+            <img src={RTRlogo} alt="Ready To Run Logo" />
           </div>
         </div>
       </body>
