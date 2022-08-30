@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/girlStartFundraiser/static/css/main.57b3ed55.css",
-    "main.js": "/girlStartFundraiser/static/js/main.d975039a.js",
+    "main.js": "/girlStartFundraiser/static/js/main.6afe8548.js",
     "static/js/787.e88cf8c3.chunk.js": "/girlStartFundraiser/static/js/787.e88cf8c3.chunk.js",
     "static/media/Girlstart-BannerImage2.png": "/girlStartFundraiser/static/media/Girlstart-BannerImage2.ffe8bbab22e3c14c9266.png",
     "static/media/NClogo.png": "/girlStartFundraiser/static/media/NClogo.c54c1770fa5c22847fbf.png",
@@ -11,11 +11,11 @@
     "static/media/RTRlogo.png": "/girlStartFundraiser/static/media/RTRlogo.9c8077e9970938d8a9ed.png",
     "index.html": "/girlStartFundraiser/index.html",
     "main.57b3ed55.css.map": "/girlStartFundraiser/static/css/main.57b3ed55.css.map",
-    "main.d975039a.js.map": "/girlStartFundraiser/static/js/main.d975039a.js.map",
+    "main.6afe8548.js.map": "/girlStartFundraiser/static/js/main.6afe8548.js.map",
     "787.e88cf8c3.chunk.js.map": "/girlStartFundraiser/static/js/787.e88cf8c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57b3ed55.css",
-    "static/js/main.d975039a.js"
+    "static/js/main.6afe8548.js"
   ]
 }
