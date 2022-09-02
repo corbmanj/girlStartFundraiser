@@ -10,6 +10,7 @@ import RTRlogo from "./RTRlogo.png"
 import NClogo from "./NClogo.png"
 import KLClogo from "./KLClogo.png"
 import PHlogo from "./PHlogo.png"
+import RTElogo from "./RTElogo.png"
 import "./App.css";
 
 const event = {
@@ -69,6 +70,7 @@ function App() {
             <img src={RTRlogo} alt="Ready To Run Logo" />
             <img src={KLClogo} alt="Kerbey Lane Cafe Logo" />
             <img src={PHlogo} alt="Pinthouse Pizza Logo" />
+            <img src={RTElogo} alt="Run The Edge Logo" />
           </div>
         </div>
       </body>
